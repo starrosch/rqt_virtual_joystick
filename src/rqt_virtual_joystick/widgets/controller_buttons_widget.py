@@ -85,7 +85,7 @@ class ControllerButton(QAbstractButton):
         self.setChecked(False)
         self.setCursor(Qt.PointingHandCursor)
         self.setFocusPolicy(Qt.StrongFocus)
-        self.setAccessibleName(f"Controller button {LABELS[btn_id]}")
+        # self.setAccessibleName(f"Controller button {LABELS[btn_id]}")
         self.setToolTip(LABELS[btn_id])
 
         # Momentary behaviour uses pressed/released to mirror legacy semantics.
